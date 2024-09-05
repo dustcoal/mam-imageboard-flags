@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           MaM imageboard flags
 @namespace      github.com/openstyles/stylus
-@version        1.0.3
+@version        1.0.4
 @description    Imageboard style flags in the mam shoutbox
 @author         Me
 ==/UserStyle== */
@@ -15,7 +15,16 @@
         background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
     }
     
+    /* region flags */
+    /* wales */
+    img[src="https://cdn.myanonamouse.net/pic/flags/gb-wls.svg"] {
+        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Wales.png');
+        background-image: none;
+    }
+    
+    
     /* memeflags */
+    /* pirate */
     img[src="https://cdn.myanonamouse.net/pic/flags/xx.svg"] {
         content: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_pirate.png');
         background-image: none;
